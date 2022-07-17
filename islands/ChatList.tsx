@@ -32,7 +32,7 @@ export default function ChatList() {
 
 	return (
 		<div class={tw`flex flex-col gap-3 h-full relative flex-1`}>
-			<div class={tw`flex flex-col gap-2`}>
+			<div class={tw`flex flex-col gap-2 pb-20`}>
 				{chats.map((e) => (
 					<div class={tw`px-1 rounded bg-gray-800 min-w-[50%]`}>
 						<h3 class={tw`font-bold`}>{e.name}</h3>
@@ -47,7 +47,7 @@ export default function ChatList() {
 					type="text"
 					value={name}
 					placeholder="Name"
-					class={tw`border-1 border-black p-1.5 rounded-full bg-gray-800`}
+					class={tw`border-1 border-black p-1.5 rounded-full bg-gray-800 w-1/5`}
 					onChange={(ev) => setName(ev.currentTarget.value)}
 				/>
 				<input
