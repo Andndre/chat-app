@@ -1,13 +1,4 @@
-# fresh project
+# Framework Test (Creating Chat App)
 
-### Usage
-
-Start the project:
-
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
-
-Live: [Deno Deploy](https://andndre-chat-app.deno.dev/)
+- [fresh.deno.dev](https://github.com/Andndre/chat-app/tree/fresh)
+- [create-next-app](https://github.com/Andndre/chat-app/tree/nextjs)
