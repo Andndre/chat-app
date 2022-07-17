@@ -17,7 +17,7 @@ export default function ChatList() {
 	};
 
 	useEffect(() => {
-		ws.current = new WebSocket('ws://localhost:8000/api/ws');
+		ws.current = new WebSocket('https://andndre-chat-app.deno.dev/api/ws');
 		ws.current.onmessage = (ev) => {
 			const data = JSON.parse(ev.data);
 			if (data.type === 'load-many') {
